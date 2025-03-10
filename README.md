@@ -1,12 +1,29 @@
-# React + Vite
+# Worldwise 🌍  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Worldwise is a web application that allows users to track the places they've visited, add details about their experiences, and store them.
 
-Currently, two official plugins are available:
+## Features  
+✅ Select locations you've visited  
+✅ Add custom notes and details about each place  
+✅ Store visited cities and countries in a personal list  
+✅ Interactive UI for easy navigation 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation  
+1️⃣ Clone the Repository  
+    - git clone https://github.com/your-username/worldwise.git
+    - cd worldwise
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2️⃣ Install Dependencies
+    - npm install
+    
+3️⃣ Start the Backend Server 
+    Run this command in a separate terminal:
+    - npm run server
+    
+4️⃣ Start the Frontend (Vite)
+    - npm run dev
+    
+5️⃣ Open the App
+    Vite will provide a URL like:
+    ➜  Local:   http://localhost:5173/
+    Open this in your browser to start using Worldwise!
